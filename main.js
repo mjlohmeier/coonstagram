@@ -37,8 +37,8 @@ images.forEach(function(currentImageInModal) {
     var openNewImageInModal = function () {
         var imgContainer = document.querySelector('.img-container');
         imgContainer.classList.add('show');
-        var img = document.querySelector('newImg');
-        
+        var img = document.querySelector('.newImg');
+        img.setAttribute('src', currentImageInModal.url)
 
     }
 
