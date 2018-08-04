@@ -1,3 +1,5 @@
+// Array of images:
+
 var images = [
 
     {caption:"lardo", url:"https://www.sunnyskyz.com/uploads/2013/09/bu7j0-fat-raccoon.jpg"},
@@ -6,13 +8,19 @@ var images = [
 
     {caption:"hugs", url:"https://static.boredpanda.com/blog/wp-content/uploads/2017/06/59561066699cf_Rc7GiRs__700.jpg"},
 
+    {caption:"cheesin", url:"https://www.nationalgeographic.com/content/dam/animals/pictures/mammals/r/raccoon/raccoon.adapt.676.1.JPG"}
+
 ];
 
+//
 
+// Setting the container equal to a querySelector:
 
-var container = document.querySelector('.image-list');
+var container = document$.querySelector('.image-list');
 
+//
 
+// 
 
 images.forEach(function(currentImageInModal) {
     
